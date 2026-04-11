@@ -18,19 +18,12 @@
 		"main": [
 			"dev.evokerking.elemancy.Elemancy"
 		],
-		"client": [
-			"dev.evokerking.elemancy.client.ElemancyClient"
-		],
 		"fabric-datagen": [
-			"dev.evokerking.elemancy.client.ElemancyDataGenerator"
+			"dev.evokerking.elemancy.ElemancyDataGenerator"
 		]
 	},
 	"mixins": [
-		"elemancy.mixins.json",
-		{
-			"config": "elemancy.client.mixins.json",
-			"environment": "client"
-		}
+		"elemancy.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.18.6",

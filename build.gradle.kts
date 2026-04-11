@@ -14,17 +14,6 @@ repositories {
 	// for more information about repositories.
 }
 
-loom {
-	splitEnvironmentSourceSets()
-
-	mods {
-		register("elemancy") {
-			sourceSet(sourceSets.main.get())
-			sourceSet(sourceSets.getByName("client"))
-		}
-	}
-}
-
 fabricApi {
 	configureDataGeneration {
 		client = true
