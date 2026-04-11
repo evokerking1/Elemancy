@@ -17,7 +17,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"dev.evokerking.elemancy.Elemancy"
+			"dev.evokerking.elemancy.ElemancyMod"
 		],
 		"fabric-datagen": [
 			"dev.evokerking.elemancy.datagen.ElemancyDataGenerator"
