@@ -5,13 +5,14 @@
 	"name": "Elemancy",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"evokerking1",
+		"Teal Wolf 25"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/project/elemancy",
+		"sources": "https://github.com/evokerking1/Elemancy"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/elemancy/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -19,7 +20,7 @@
 			"dev.evokerking.elemancy.Elemancy"
 		],
 		"fabric-datagen": [
-			"dev.evokerking.elemancy.ElemancyDataGenerator"
+			"dev.evokerking.elemancy.datagen.ElemancyDataGenerator"
 		]
 	},
 	"mixins": [
@@ -29,6 +30,7 @@
 		"fabricloader": ">=0.18.6",
 		"minecraft": "~26.1.1",
 		"java": ">=25",
-		"fabric-api": "*"
+		"fabric-api": "*",
+		"modonomicon": ">=1.132.3"
 	}
 }
