@@ -1,10 +1,12 @@
 plugins {
-	id("net.fabricmc.fabric-loom")
 	`maven-publish`
+
+	alias(libs.plugins.fabric.loom)
+	alias(libs.plugins.pkpcpbp)
 }
 
-version = providers.gradleProperty("mod_version").get()
-group = providers.gradleProperty("maven_group").get()
+version = project.property("mod_version")!!
+group = project.property("maven_group")!!
 
 repositories {
 	// Add repositories to retrieve artifacts from in here.
@@ -21,13 +23,14 @@ fabricApi {
 }
 
 dependencies {
-	// To change the versions see the gradle.properties file
-	minecraft("com.mojang:minecraft:${providers.gradleProperty("minecraft_version").get()}")
+	// Dependency versions are defined in ./gradle/libs.versions.toml
+	minecraft(libs.minecraft)
 	
-	implementation("net.fabricmc:fabric-loader:${providers.gradleProperty("loader_version").get()}")
+	implementation(libs.fabric.loader)
+	implementation(libs.fabric.api)
 
-	// Fabric API. This is technically optional, but you probably want it anyway.
-	implementation("net.fabricmc.fabric-api:fabric-api:${providers.gradleProperty("fabric_api_version").get()}")
+	implementation(libs.bundles.dependencies)
+	localRuntime(libs.bundles.dev.mods)
 	
 }
 

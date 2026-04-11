@@ -4,12 +4,12 @@ pluginManagement {
 			name = "Fabric"
 			url = uri("https://maven.fabricmc.net/")
 		}
+		maven {
+			name = "BlameJared"
+			url = uri("https://maven.blamejared.com/")
+		}
 		mavenCentral()
 		gradlePluginPortal()
-	}
-
-	plugins {
-		id("net.fabricmc.fabric-loom") version providers.gradleProperty("loom_version")
 	}
 }
 
