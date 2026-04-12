@@ -21,6 +21,6 @@ public class ElemancyMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("["+MOD_ID+"] Hello from "+MOD_NAME);
-		ElemancyItems.initialize();
+		ElemancyBlocks.initialize();
 	}
 }

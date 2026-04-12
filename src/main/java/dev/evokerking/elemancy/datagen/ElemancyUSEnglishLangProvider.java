@@ -7,7 +7,7 @@ import org.jspecify.annotations.NonNull;
 
 import java.util.concurrent.CompletableFuture;
 
-import static dev.evokerking.elemancy.ElemancyItems.*;
+import static dev.evokerking.elemancy.ElemancyBlocks.*;
 
 public class ElemancyUSEnglishLangProvider extends FabricLanguageProvider {
     protected ElemancyUSEnglishLangProvider(FabricPackOutput dataOutput, CompletableFuture<HolderLookup.Provider> registryLookup) {
