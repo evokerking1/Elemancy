@@ -38,16 +38,16 @@ public class ElemancyUSEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(LIGHT_CRYSTAL, LightCrystalBlock.name);
         translationBuilder.add(SHADOW_CRYSTAL, ShadowCrystalBlock.name);
         translationBuilder.add(WATER_CRYSTAL, WaterCrystalBlock.name);
-        //#endregion block-translations
+        //#endregion
         
-        //#region shard_translation
+        //#region shard-translations
         translationBuilder.add(AIR_SHARD, AirCrystalShard.name);
         translationBuilder.add(EARTH_SHARD, EarthCrystalShard.name);
         translationBuilder.add(FIRE_SHARD, FireCrystalShard.name);
         translationBuilder.add(LIGHT_SHARD, LightCrystalShard.name);
         translationBuilder.add(SHADOW_SHARD, ShadowCrystalShard.name);
         translationBuilder.add(WATER_SHARD, WaterCrystalShard.name);
-        //#endregion shard_translation
+        //#endregion
 
         
     }
