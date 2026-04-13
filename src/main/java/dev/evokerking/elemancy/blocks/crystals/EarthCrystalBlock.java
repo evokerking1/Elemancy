@@ -1,8 +1,9 @@
 package dev.evokerking.elemancy.blocks.crystals;
 
-import net.minecraft.world.item.Item;
+import dev.evokerking.elemancy.annotation.block;
 import net.minecraft.world.level.block.Block;
 
+@block
 public class EarthCrystalBlock extends Block {
     public EarthCrystalBlock(Properties properties) {
         super(properties);
