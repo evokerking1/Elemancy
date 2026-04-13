@@ -32,21 +32,21 @@ public class ElemancyUSEnglishLangProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(HolderLookup.@NonNull Provider holderLookup, TranslationBuilder translationBuilder) {
         //#region block-translations
-        translationBuilder.add(AIR_CRYSTAL, AirCrystalBlock.name);
-        translationBuilder.add(EARTH_CRYSTAL, EarthCrystalBlock.name);
-        translationBuilder.add(FIRE_CRYSTAL, FireCrystalBlock.name);
-        translationBuilder.add(LIGHT_CRYSTAL, LightCrystalBlock.name);
-        translationBuilder.add(SHADOW_CRYSTAL, ShadowCrystalBlock.name);
-        translationBuilder.add(WATER_CRYSTAL, WaterCrystalBlock.name);
+        translationBuilder.add(AIR_CRYSTAL, "Air Crystal");
+        translationBuilder.add(EARTH_CRYSTAL, "Earth Crystal");
+        translationBuilder.add(FIRE_CRYSTAL, "Fire Crystal");
+        translationBuilder.add(LIGHT_CRYSTAL, "Light Crystal");
+        translationBuilder.add(SHADOW_CRYSTAL, "Shadow Crystal");
+        translationBuilder.add(WATER_CRYSTAL, "Water Crystal");
         //#endregion
         
         //#region shard-translations
-        translationBuilder.add(AIR_SHARD, AirCrystalShard.name);
-        translationBuilder.add(EARTH_SHARD, EarthCrystalShard.name);
-        translationBuilder.add(FIRE_SHARD, FireCrystalShard.name);
-        translationBuilder.add(LIGHT_SHARD, LightCrystalShard.name);
-        translationBuilder.add(SHADOW_SHARD, ShadowCrystalShard.name);
-        translationBuilder.add(WATER_SHARD, WaterCrystalShard.name);
+        translationBuilder.add(AIR_SHARD, "Air Shard");
+        translationBuilder.add(EARTH_SHARD, "Earth Shard");
+        translationBuilder.add(FIRE_SHARD, "Fire Shard");
+        translationBuilder.add(LIGHT_SHARD, "Light Shard");
+        translationBuilder.add(SHADOW_SHARD, "Shadow Shard");
+        translationBuilder.add(WATER_SHARD, "Water Shard");
         //#endregion
 
         

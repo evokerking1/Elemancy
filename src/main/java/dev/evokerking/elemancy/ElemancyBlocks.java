@@ -48,7 +48,7 @@ public class ElemancyBlocks {
 
     public static final Block AIR_CRYSTAL = register(AirCrystalBlock.id, AirCrystalBlock::new, BlockBehaviour.Properties.of().sound(SoundType.AMETHYST), true);
     public static final Block EARTH_CRYSTAL = register(EarthCrystalBlock.id, EarthCrystalBlock::new, BlockBehaviour.Properties.of().sound(SoundType.AMETHYST), true);
-    public static final Block FIRE_CRYSTAL = register(EarthCrystalBlock.id, FireCrystalBlock::new, BlockBehaviour.Properties.of().sound(SoundType.AMETHYST), true);
+    public static final Block FIRE_CRYSTAL = register(FireCrystalBlock.id, FireCrystalBlock::new, BlockBehaviour.Properties.of().sound(SoundType.AMETHYST), true);
     public static final Block LIGHT_CRYSTAL = register(LightCrystalBlock.id, LightCrystalBlock::new, BlockBehaviour.Properties.of().sound(SoundType.AMETHYST), true);
     public static final Block SHADOW_CRYSTAL = register(ShadowCrystalBlock.id, ShadowCrystalBlock::new, BlockBehaviour.Properties.of().sound(SoundType.AMETHYST), true);
     public static final Block WATER_CRYSTAL = register(WaterCrystalBlock.id, WaterCrystalBlock::new, BlockBehaviour.Properties.of().sound(SoundType.AMETHYST), true);

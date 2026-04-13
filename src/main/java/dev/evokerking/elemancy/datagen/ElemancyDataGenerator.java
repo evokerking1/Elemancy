@@ -11,6 +11,5 @@ public class ElemancyDataGenerator implements DataGeneratorEntrypoint {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ElemancyUSEnglishLangProvider::new);
-		pack.addProvider(ElemancyBook::new);
 	}
 }

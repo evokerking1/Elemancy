@@ -25,7 +25,7 @@ public class ElemancyItems {
 		return item;
     }
 
-    public static void register() {
+    public static void initialize() {
 
     }
 
