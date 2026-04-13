@@ -2,6 +2,7 @@ package dev.evokerking.elemancy;
 
 import java.util.function.Function;
 
+import dev.evokerking.elemancy.items.EarthCrystalShard;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -24,7 +25,9 @@ public class ElemancyItems {
     }
 
     public static void register() {
-        
+
     }
+
+    public static final Item EARTH_SHARD = registerItem("earth_shard", EarthCrystalShard::new, null);
 
 }
