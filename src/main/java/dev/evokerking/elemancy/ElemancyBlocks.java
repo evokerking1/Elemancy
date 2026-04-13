@@ -46,10 +46,10 @@ public class ElemancyBlocks {
     public static void initialize() {
     }
 
-    public static final Block AIR_CRYSTAL = register("air_crystal", AirCrystalBlock::new, BlockBehaviour.Properties.of().sound(SoundType.AMETHYST), true);
-    public static final Block EARTH_CRYSTAL = register("earth_crystal", EarthCrystalBlock::new, BlockBehaviour.Properties.of().sound(SoundType.AMETHYST), true);
-    public static final Block FIRE_CRYSTAL = register("fire_crystal", FireCrystalBlock::new, BlockBehaviour.Properties.of().sound(SoundType.AMETHYST), true);
-    public static final Block LIGHT_CRYSTAL = register("light_crystal", LightCrystalBlock::new, BlockBehaviour.Properties.of().sound(SoundType.AMETHYST), true);
-    public static final Block SHADOW_CRYSTAL = register("shadow_crystal", ShadowCrystalBlock::new, BlockBehaviour.Properties.of().sound(SoundType.AMETHYST), true);
-    public static final Block WATER_CRYSTAL = register("water_crystal", WaterCrystalBlock::new, BlockBehaviour.Properties.of().sound(SoundType.AMETHYST), true);
+    public static final Block AIR_CRYSTAL = register(AirCrystalBlock.id, AirCrystalBlock::new, BlockBehaviour.Properties.of().sound(SoundType.AMETHYST), true);
+    public static final Block EARTH_CRYSTAL = register(EarthCrystalBlock.id, EarthCrystalBlock::new, BlockBehaviour.Properties.of().sound(SoundType.AMETHYST), true);
+    public static final Block FIRE_CRYSTAL = register(EarthCrystalBlock.id, FireCrystalBlock::new, BlockBehaviour.Properties.of().sound(SoundType.AMETHYST), true);
+    public static final Block LIGHT_CRYSTAL = register(LightCrystalBlock.id, LightCrystalBlock::new, BlockBehaviour.Properties.of().sound(SoundType.AMETHYST), true);
+    public static final Block SHADOW_CRYSTAL = register(ShadowCrystalBlock.id, ShadowCrystalBlock::new, BlockBehaviour.Properties.of().sound(SoundType.AMETHYST), true);
+    public static final Block WATER_CRYSTAL = register(WaterCrystalBlock.id, WaterCrystalBlock::new, BlockBehaviour.Properties.of().sound(SoundType.AMETHYST), true);
 }

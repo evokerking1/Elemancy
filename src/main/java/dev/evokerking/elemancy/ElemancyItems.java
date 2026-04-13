@@ -2,7 +2,7 @@ package dev.evokerking.elemancy;
 
 import java.util.function.Function;
 
-import dev.evokerking.elemancy.items.EarthCrystalShard;
+import dev.evokerking.elemancy.items.*;
 import net.minecraft.client.renderer.item.ClientItem;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -29,6 +29,11 @@ public class ElemancyItems {
 
     }
 
-    public static final Item EARTH_SHARD = registerItem("earth_shard", EarthCrystalShard::new, new Item.Properties());
+    public static final Item AIR_SHARD = registerItem(AirCrystalShard.id, AirCrystalShard::new, new Item.Properties());
+    public static final Item EARTH_SHARD = registerItem(EarthCrystalShard.id, EarthCrystalShard::new, new Item.Properties());
+    public static final Item FIRE_SHARD = registerItem(FireCrystalShard.id, FireCrystalShard::new, new Item.Properties());
+    public static final Item LIGHT_SHARD = registerItem(LightCrystalShard.id, LightCrystalShard::new, new Item.Properties());
+    public static final Item SHADOW_SHARD = registerItem(ShadowCrystalShard.id, ShadowCrystalShard::new, new Item.Properties());
+    public static final Item WATER_SHARD = registerItem(WaterCrystalShard.id, WaterCrystalShard::new, new Item.Properties());
 
 }
