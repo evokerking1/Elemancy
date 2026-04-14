@@ -31,14 +31,14 @@ public class ElemancyMod implements ModInitializer {
 		LOGGER.info("["+MOD_ID+"] Hello from "+MOD_NAME);
 		ElemancyBlocks.initialize();
 		ElemancyItems.initialize();
-		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, CUSTOM_CREATIVE_TAB_KEY, CUSTOM_CREATIVE_TAB);
+		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, ELEMANCY_CREATIVE_TAB_KEY, ELEMANCY_CREATIVE_TAB);
 
 	}
 
-	public static final ResourceKey<CreativeModeTab> CUSTOM_CREATIVE_TAB_KEY = ResourceKey.create(
+	public static final ResourceKey<CreativeModeTab> ELEMANCY_CREATIVE_TAB_KEY = ResourceKey.create(
 			BuiltInRegistries.CREATIVE_MODE_TAB.key(), Identifier.fromNamespaceAndPath(MOD_ID, "creative_tab")
 	);
-	public static final CreativeModeTab CUSTOM_CREATIVE_TAB = FabricCreativeModeTab.builder()
+	public static final CreativeModeTab ELEMANCY_CREATIVE_TAB = FabricCreativeModeTab.builder()
 			.icon(() -> new ItemStack(ElemancyItems.AIR_SHARD))
 			.title(Component.translatable("creativeTab.elemancy"))
 			.displayItems((params, output) -> {
