@@ -50,6 +50,10 @@ public class ElemancyUSEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(WATER_SHARD, "Water Shard");
         //#endregion
 
+        //#region misc-item-translations
+        translationBuilder.add(ELEMINITE_INGOT, "Eleminite Ingot");
+        //#endregion
+
         //#region misc-translations
         translationBuilder.add(ElemancyMod.ELEMANCY_CREATIVE_TAB_KEY, ElemancyMod.MOD_NAME);
         //#endregion

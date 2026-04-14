@@ -35,6 +35,6 @@ public class ElemancyItems {
     public static final Item LIGHT_SHARD = registerItem(LightCrystalShard.id, LightCrystalShard::new, new Item.Properties());
     public static final Item SHADOW_SHARD = registerItem(ShadowCrystalShard.id, ShadowCrystalShard::new, new Item.Properties());
     public static final Item WATER_SHARD = registerItem(WaterCrystalShard.id, WaterCrystalShard::new, new Item.Properties());
-    public static final Item ELEMINITE_INGOT = registerItem(EleminiteIngot.id,)
+    public static final Item ELEMINITE_INGOT = registerItem(EleminiteIngot.id, EleminiteIngot::new, new Item.Properties());
 
 }
