@@ -1,5 +1,6 @@
 package dev.evokerking.elemancy.datagen;
 
+import dev.evokerking.elemancy.ElemancyMod;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 import net.minecraft.core.HolderLookup;
@@ -49,6 +50,8 @@ public class ElemancyUSEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(WATER_SHARD, "Water Shard");
         //#endregion
 
-        
+        //#region misc-translations
+        translationBuilder.add(ElemancyMod.ELEMANCY_CREATIVE_TAB_KEY, ElemancyMod.MOD_NAME);
+        //#endregion
     }
 }
