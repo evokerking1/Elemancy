@@ -6,19 +6,6 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 import net.minecraft.core.HolderLookup;
 import org.jspecify.annotations.NonNull;
 
-import dev.evokerking.elemancy.blocks.crystals.AirCrystalBlock;
-import dev.evokerking.elemancy.blocks.crystals.EarthCrystalBlock;
-import dev.evokerking.elemancy.blocks.crystals.FireCrystalBlock;
-import dev.evokerking.elemancy.blocks.crystals.LightCrystalBlock;
-import dev.evokerking.elemancy.blocks.crystals.ShadowCrystalBlock;
-import dev.evokerking.elemancy.blocks.crystals.WaterCrystalBlock;
-import dev.evokerking.elemancy.items.AirCrystalShard;
-import dev.evokerking.elemancy.items.EarthCrystalShard;
-import dev.evokerking.elemancy.items.FireCrystalShard;
-import dev.evokerking.elemancy.items.LightCrystalShard;
-import dev.evokerking.elemancy.items.ShadowCrystalShard;
-import dev.evokerking.elemancy.items.WaterCrystalShard;
-
 import java.util.concurrent.CompletableFuture;
 
 import static dev.evokerking.elemancy.ElemancyBlocks.*;

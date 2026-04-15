@@ -3,7 +3,6 @@ package dev.evokerking.elemancy.datagen;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
-import dev.evokerking.elemancy.book.*;
 
 public class ElemancyDataGenerator implements DataGeneratorEntrypoint {
 	@Override
