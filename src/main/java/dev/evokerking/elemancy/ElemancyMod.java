@@ -39,23 +39,28 @@ public class ElemancyMod implements ModInitializer {
 			BuiltInRegistries.CREATIVE_MODE_TAB.key(), Identifier.fromNamespaceAndPath(MOD_ID, "creative_tab")
 	);
 	public static final CreativeModeTab ELEMANCY_CREATIVE_TAB = FabricCreativeModeTab.builder()
-			.icon(() -> new ItemStack(ElemancyItems.AIR_SHARD))
+			.icon(() -> new ItemStack(ElemancyItems.ELEMINITE_INGOT))
 			.title(Component.translatable("creativeTab.elemancy"))
 			.displayItems((params, output) -> {
+				//#region shards
 				output.accept(ElemancyItems.AIR_SHARD);
 				output.accept(ElemancyItems.EARTH_SHARD);
 				output.accept(ElemancyItems.FIRE_SHARD);
 				output.accept(ElemancyItems.LIGHT_SHARD);
 				output.accept(ElemancyItems.SHADOW_SHARD);
 				output.accept(ElemancyItems.WATER_SHARD);
+				//#endregion
+
 
 
 				// The tab builder also accepts Blocks
+				//#region crystals
 				output.accept(ElemancyBlocks.AIR_CRYSTAL);
 				output.accept(ElemancyBlocks.EARTH_CRYSTAL);
 				output.accept(ElemancyBlocks.FIRE_CRYSTAL);
 				output.accept(ElemancyBlocks.LIGHT_CRYSTAL);
 				output.accept(ElemancyBlocks.SHADOW_CRYSTAL);
 				output.accept(ElemancyBlocks.WATER_CRYSTAL);
+				//#endregion
 			}).build();
 }
